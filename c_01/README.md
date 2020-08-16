@@ -38,7 +38,13 @@ session/session.go:1507 logutil.Logger(ctx).Info("hello transaction")
 
 ### 编译
 
-* 编译
-###
+
+* [TiDB](https://github.com/pingcap/tidb): `make`
+* [TiKV](https://github.com/pingcap/tikv): `make`
+* [PD](https://github.com/pingcap/pd): `make`
 
 ### 部署
+
+* 将上述三个编译结果加入 `PATH` 里，运行 `tiup `
+* 下载
+* 将上述三个编译结果加入 `PATH` 里，运行 `tiup `
