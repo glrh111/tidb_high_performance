@@ -31,7 +31,6 @@ session/session.go:1118 session.ExecuteStmt
 session/session.go:1176 runStmt
 sessionctx/context.go:34 Context.NewTxn
 session/session.go:1494 session.NewTxn
-session/session.go:1507 logutil.Logger(ctx).Info("hello transaction")
 ```
 
 所以在 `session/session.go:1507` 加入一行 `logutil.Logger(ctx).Info("hello transaction")` 即可满足需求。
