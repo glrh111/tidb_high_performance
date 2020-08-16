@@ -38,7 +38,6 @@ session/session.go:1507 logutil.Logger(ctx).Info("hello transaction")
 
 ### 编译
 
-
 * [TiDB](https://github.com/pingcap/tidb): `make`
 * [TiKV](https://github.com/pingcap/tikv): `make`
 * [PD](https://github.com/pingcap/pd): `make`
@@ -46,5 +45,7 @@ session/session.go:1507 logutil.Logger(ctx).Info("hello transaction")
 ### 部署
 
 * 将上述三个编译结果加入 `PATH` 里，运行 `tiup `
-* 下载
-* 将上述三个编译结果加入 `PATH` 里，运行 `tiup `
+* 下载 `tiup`，[参考资料](https://docs.pingcap.com/zh/tidb/stable/quick-start-with-tidb#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E4%BD%BF%E7%94%A8-tiup-cluster-%E5%9C%A8%E5%8D%95%E6%9C%BA%E4%B8%8A%E6%A8%A1%E6%8B%9F%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2%E6%AD%A5%E9%AA%A4)
+* 启动：` tiup playground --db=1 --pd=1 --kv=3 --tiflash=0`
+
+至此，已满足作业要求。恳请批评指正。
